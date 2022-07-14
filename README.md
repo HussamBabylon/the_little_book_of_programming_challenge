@@ -1,2 +1,2 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+try to solving the 27 challenges in the little book of programming challenge book 
+using dart programming Language 
