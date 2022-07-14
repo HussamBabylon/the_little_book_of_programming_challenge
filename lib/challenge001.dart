@@ -3,7 +3,7 @@ import 'dart:io';
 class TellMeJoke {
   aim() {
     String aim = '\nWelcome to challenge 001.'
-        '\nChallenge Descraption, Write a program that will display a joke'
+        '\nChallenge Descraption: Write a program that will display a joke'
         '\nDon’t display the punchline until the reader hits the enter key.'
         '\nExtension : display the punchline in a different colour '
         '\nPrior Knowledge Needed : [How to output information to the screen]';
