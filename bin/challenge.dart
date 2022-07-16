@@ -3,7 +3,8 @@
 //import 'package:challenge/challenge003.dart';
 //import 'package:challenge/challenge004.dart';
 //import 'package:challenge/challenge005.dart';
-import 'package:challenge/challenge006.dart';
+//import 'package:challenge/challenge006.dart';
+import 'package:challenge/challenge007.dart';
 
 void main() {
   /* challenge 001 
@@ -29,6 +30,10 @@ void main() {
   //timeYourLife.getYourLiveInDays();
   timeYourLife.getYourLiveInSecond();
   */
+  /*
   GuessingGame guessingGame = GuessingGame();
   guessingGame.playGame();
+  */
+  Alphabet alphabet = Alphabet();
+  alphabet.alphabetGame();
 }
