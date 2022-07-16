@@ -4,7 +4,8 @@
 //import 'package:challenge/challenge004.dart';
 //import 'package:challenge/challenge005.dart';
 //import 'package:challenge/challenge006.dart';
-import 'package:challenge/challenge007.dart';
+//import 'package:challenge/challenge007.dart';
+import 'package:challenge/challenge008.dart';
 
 void main() {
   /* challenge 001 
@@ -34,6 +35,15 @@ void main() {
   GuessingGame guessingGame = GuessingGame();
   guessingGame.playGame();
   */
+  /*
   Alphabet alphabet = Alphabet();
   alphabet.alphabetGame();
+  */
+  VoitDecider voitDecider = VoitDecider();
+  //voitDecider.isAllowedToVoit();
+  if (voitDecider.isAllowedToVoit()) {
+    print('\x1B[32m \nyou are allowed to voit (:');
+  } else {
+    print('\x1B[32m \nyou are not allowed to voit ):');
+  }
 }
