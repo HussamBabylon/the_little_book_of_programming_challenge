@@ -15,7 +15,7 @@ class VoitDecider {
     print('\x1B[31m $aim');
   }
 
-  bool isAllowedToVoit() {
+  isAllowedToVoit() {
     aim();
     try {
       print('\x1B[35m \nplease enter your year brith');
@@ -46,9 +46,13 @@ class VoitDecider {
     var intUserYear = userYear.toInt();
     //print('\x1B[32m your Lived $intUserYear days');
     if (intUserYear >= 18) {
-      return true;
+      //return true;
+      print('\x1B[32m \nyou are allowed to voit (:');
+      print('\x1B[32m \nyou agr is : $intUserYear');
     } else {
-      return false;
+      // return false;
+      print('\x1B[32m \nyou are not allowed to voit (:');
+      print('\x1B[32m \nyou agr is : $intUserYear');
     }
   }
 }

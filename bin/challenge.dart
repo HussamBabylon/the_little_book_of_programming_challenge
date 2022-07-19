@@ -39,11 +39,12 @@ void main() {
   Alphabet alphabet = Alphabet();
   alphabet.alphabetGame();
   */
+
   VoitDecider voitDecider = VoitDecider();
-  //voitDecider.isAllowedToVoit();
-  if (voitDecider.isAllowedToVoit()) {
-    print('\x1B[32m \nyou are allowed to voit (:');
-  } else {
-    print('\x1B[32m \nyou are not allowed to voit ):');
-  }
+  voitDecider.isAllowedToVoit();
+  // if (voitDecider.isAllowedToVoit()) {
+  //   print('\x1B[32m \nyou are allowed to voit (:');
+  // } else {
+  //   print('\x1B[32m \nyou are not allowed to voit ):');
+  // }
 }
