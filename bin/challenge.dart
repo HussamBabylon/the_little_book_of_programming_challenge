@@ -6,7 +6,8 @@
 //import 'package:challenge/challenge006.dart';
 //import 'package:challenge/challenge007.dart';
 //import 'package:challenge/challenge008.dart';
-import 'package:challenge/challenge009.dart';
+//import 'package:challenge/challenge009.dart';
+//import 'package:challenge/challenge010.dart';
 
 void main() {
   /* challenge 001 
@@ -52,5 +53,9 @@ void main() {
   /* challenge 009
   CardGameRandom cardGameRandom = CardGameRandom();
   cardGameRandom.playCardGame();
+  */
+  /* challenge 010
+  RockPaperScissors rockPaperScissors = RockPaperScissors();
+  rockPaperScissors.compareSelection();
   */
 }
