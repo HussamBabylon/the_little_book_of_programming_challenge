@@ -15,8 +15,6 @@ class TellMeJoke {
     aim();
     print('\x1B[35m \nWhy the fish lived in the water ?');
     String inputKey = stdin.readLineSync()!;
-    if (inputKey == '') {
       print('\x1B[32m \nTo take a shower.. (:\n');
-    }
   }
 }
