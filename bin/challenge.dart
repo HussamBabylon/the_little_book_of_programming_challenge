@@ -8,9 +8,10 @@
 //import 'package:challenge/challenge008.dart';
 //import 'package:challenge/challenge009.dart';
 //import 'package:challenge/challenge010.dart';
+//import 'package:challenge/challenge011.dart';
 
 void main() {
-  /* challenge 001 
+  /* challenge 001
   TellMeJoke tellMeJoke = TellMeJoke();
   tellMeJoke.tellMeJoke();
   */
@@ -58,4 +59,9 @@ void main() {
   RockPaperScissors rockPaperScissors = RockPaperScissors();
   rockPaperScissors.compareSelection();
   */
+/*
+  LogicGate logicGate = LogicGate();
+  logicGate.selectGateAndRun();
+*/
+
 }
